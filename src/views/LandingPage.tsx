@@ -4,13 +4,7 @@ import Input from '../components/Input/Input';
 import colors from '../style/colors';
 
 const LandingPage = () => {
-  return (
-    <>
-      <Input placeholder="usenrame@emaill.cim" />
-      <Button variant="primary">hello</Button>
-      <Icon fill={colors.amaryllisRed} iconCode="heart" />
-    </>
-  );
+  return <div class="flex flex-col items-center"></div>;
 };
 
 export default LandingPage;

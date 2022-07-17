@@ -2,7 +2,7 @@ import Svg from '../Svg';
 import { SvgProps } from '../../types';
 
 export const Heart = (props: SvgProps) => (
-  <Svg {...props}>
+  <Svg viewBox="0 0 600 600" {...props}>
     <g>
       <g id="Artwork_15_">
         <g id="Layer_5_15_">

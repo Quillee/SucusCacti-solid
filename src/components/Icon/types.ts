@@ -6,4 +6,4 @@ export interface SvgProps {
   fill?: string;
 }
 
-export type IconCode = 'heart' | 'shoppingCart';
+export type IconCode = 'arrow'| 'circlePlus'| 'heart'| 'minus'| 'plus'| 'search'| 'shoppingCart'| 'times'| 'user';

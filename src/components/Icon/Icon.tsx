@@ -10,6 +10,7 @@ import {
   Times,
   User,
 } from './Svg';
+import colors from '../../style/colors';
 
 const ICON_MAP = {
   arrow: Arrow,
@@ -32,7 +33,7 @@ interface Props extends SvgProps {
 const Icon = ({
   iconCode,
   scale = '3.4rem',
-  fill = 'none',
+  fill = colors.underseasGreen,
   stroke = 'none',
   strokeWidth,
   ...rest
